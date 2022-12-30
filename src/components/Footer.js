@@ -11,7 +11,7 @@ export const Footer = () => {
                 <a href="mailto:ramosgustavodev@gmail.com"><img src={gmail} alt="gmail" /></a>
                 <a href="https://github.com/RamosGustavo"><img src={github1} alt="github" /></a>
             </div>
-            <p>Created by: Gustavo Ramos</p>
+            <p>Created by: Gustavo Ramos / Full Stack developer.</p>
     </footer>
   )
 }

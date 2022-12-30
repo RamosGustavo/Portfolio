@@ -1,6 +1,5 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import calculadora from "../assets/img/calculadora.png"
 import todo from "../assets/img/todo.png";
 import pidg from "../assets/img/pidg.png";
 import pivgp from "../assets/img/pivgp.png";
@@ -41,7 +40,7 @@ export const Projects = () => {
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="projects">
       <Container>
         <Row>
           <Col size={12}>
