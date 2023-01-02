@@ -57,14 +57,7 @@ export const Banner = () => {
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                   <span className="tagline">Welcome to my Portfolio</span>
                   <h1>{`Hi! I'm Gustavo`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full Stack Developer", "React developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>¡Hola! Mi nombre es Gustavo y soy un programador fullstack con
-                    habilidades en una amplia gama de tecnologías, incluyendo JavaScript,
-                    HTML, CSS, frameworks como React y Node.js. Me encanta trabajar en
-                    proyectos innovadores y siempre estoy buscando nuevas maneras de
-                    mejorar mis habilidades y conocimientos en el campo de la tecnología.
-                    Si buscas un programador fullstack dedicado, con capacidad de
-                    adaptación y determinado a mejorar continuamente sus habilidades, ¡no
-                    dudes en ponerte en contacto conmigo!</p>
+                  <p>Hello! I am Gustavo and i am a FullStack developer with skills in a wide range of technologies, including JavaScript, HTML, CSS, frameworks like React and Node.js I love working on innovate projects and I am always looking for new ways to improve my skills and knowledge in the field of technology. If you are looking for a dedicated fullstack developer who is adaptable and determined to continually improve his skills, don't hesitate to contact me!</p>
                   <Button variant="contained" className="pdf">
                     <a className="pdf1" href={RamosGustavoFullStack} download>
                       CV

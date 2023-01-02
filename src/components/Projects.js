@@ -5,7 +5,6 @@ import pidg from "../assets/img/pidg.png";
 import pivgp from "../assets/img/pivgp.png";
 import picp from "../assets/img/picp.png";
 import portfolio from "../assets/img/portfolio.png";
-import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -89,7 +88,6 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
     </section>
   )
 }
