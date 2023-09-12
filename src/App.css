@@ -533,6 +533,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 24px;
 }
 
+/*
 .proj-imgbx::before {
   content: "";
   background: linear-gradient(90.21deg, #979797 -5.91%, #17d00d 111.58%);
@@ -546,6 +547,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-imgbx:hover::before {
   height: 100%;
 }
+*/
 
 .proj-txtx {
   position: absolute;
