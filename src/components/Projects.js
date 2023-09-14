@@ -5,8 +5,10 @@ import pidg from "../assets/img/pidg.png";
 import pivgp from "../assets/img/pivgp.png";
 import picp from "../assets/img/picp.png";
 import portfolio from "../assets/img/portfolio.png";
+import dashboard from "../assets/img/dashboard.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+
 
 export const Projects = () => {
 
@@ -35,6 +37,11 @@ export const Projects = () => {
       title: "Potfolio",
       description: "Design & Development",
       imgUrl: portfolio,
+    },
+    {
+      title: "dashboard",
+      description: "Design & Development",
+      imgUrl: dashboard,
     },
   ];
 
