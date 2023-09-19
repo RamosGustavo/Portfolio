@@ -6,9 +6,9 @@ import pivgp from "../assets/img/pivgp.png";
 import picp from "../assets/img/picp.png";
 import portfolio from "../assets/img/portfolio.png";
 import dashboard from "../assets/img/dashboard.png";
+import mercado from "../assets/img/mercado-solidario.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-
 
 export const Projects = () => {
 
@@ -43,6 +43,15 @@ export const Projects = () => {
       description: "Design & Development",
       imgUrl: dashboard,
     },
+
+  ];
+
+  const projectss = [
+    {
+      title: "mercado",
+      description: "Design & Development",
+      imgUrl: mercado,
+    },
   ];
 
   return (
@@ -57,15 +66,15 @@ export const Projects = () => {
                   <p>These are some of my projects I hope you like them!</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
-                        <Nav.Item>
-                          <Nav.Link eventKey="first">Tab 1</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                          <Nav.Link eventKey="second">Tab 2</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                          <Nav.Link eventKey="third">Tab 3</Nav.Link>
-                        </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                      </Nav.Item>
                     </Nav>
                     <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                       <Tab.Pane eventKey="first">
@@ -83,7 +92,18 @@ export const Projects = () => {
                         </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="second">
-                        <p>Coming soon!</p>
+                      <Row>
+                          {
+                            projectss.map((projectss, index) => {
+                              return (
+                                <ProjectCard
+                                  key={index}
+                                  {...projectss}
+                                />
+                              )
+                            })
+                          }
+                        </Row>
                       </Tab.Pane>
                       <Tab.Pane eventKey="third">
                         <p>Coming soon!</p>
@@ -96,7 +116,7 @@ export const Projects = () => {
         </Row>
       </Container>
       <div className="proj-imgbb">
-      <a className="proj-imgbz" href="https://github.com/RamosGustavo?tab=repositories">View all my projects!</a>
+        <a className="proj-imgbz" href="https://github.com/RamosGustavo?tab=repositories">View all my projects!</a>
       </div>
     </section>
   )
