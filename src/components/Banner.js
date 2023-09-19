@@ -3,7 +3,7 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import RamosGustavoFullStack from "../assets/img/RamosGustavoFullStack.pdf"
+import RamosGustavoFullStack from "../assets/img/Gustavo-FullStack.pdf"
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
