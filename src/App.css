@@ -552,6 +552,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .proj-imgbx {
+  color: #fff;
   position: relative;
   border-radius: 30px;
   overflow: hidden;
@@ -560,11 +561,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   max-height: 180px;
 }
 
+.proj-imgbx:hover {
+  transform: scale(1.05, 1.05);
+  box-shadow: 4px 5px 6px 2px rgb(93, 192, 36);
+}
+
 .proj-imgbz {
   display: flex;
   justify-content: center;
   color: #fff;
   padding-top: 7px;
+  font-style: none;
   padding-bottom: 7px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -574,18 +581,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-decoration: none;
   font-weight: bold;
   font-style: italic;
-  background: rgba( 255, 255, 255, 0.05 );
-  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 2.5px );
-  -webkit-backdrop-filter: blur( 2.5px );
+  box-shadow: 0 8px 22px 0 rgb(93, 192, 36);
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
-/*
+.proj-imgbz:hover {
+  color: #0f7d0b;
+}
+
+
 .proj-imgbx::before {
+  color: #fff !important;
   content: "";
-  background: linear-gradient(90.21deg, #979797 -5.91%, #17d00d 111.58%);
+  background: linear-gradient(90.21deg, #cec8c8 -5.91%, #292828 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -596,9 +605,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-imgbx:hover::before {
   height: 100%;
 }
-*/
+
 
 .proj-txtx {
+  color: #000;
   position: absolute;
   text-align: center;
   top: 65%;

@@ -17,33 +17,38 @@ export const Projects = () => {
       title: "To.Do List",
       description: "Design & Development",
       imgUrl: todo,
+      href: "https://github.com/RamosGustavo/To.do-list",
     },
     {
       title: "Dogs Page",
       description: "Design & Development",
       imgUrl: pidg,
+      href: "https://github.com/RamosGustavo/individual-proyect-Soy-Henry",
     },
     {
       title: "Video Games Page",
       description: "Design & Development",
       imgUrl: pivgp,
+      href: "https://github.com/RamosGustavo/PI_VideoGames",
     },
     {
       title: "Countries Page",
       description: "Design & Development",
       imgUrl: picp,
+      href: "https://github.com/RamosGustavo/PI-countries",
     },
     {
       title: "Potfolio",
       description: "Design & Development",
       imgUrl: portfolio,
+      href: "https://full-stack-ramos-gustavo.netlify.app/",
     },
     {
       title: "dashboard",
       description: "Design & Development",
       imgUrl: dashboard,
+      href: "https://github.com/RamosGustavo/Dashboard",
     },
-
   ];
 
   const projectss = [
@@ -115,7 +120,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <div className="proj-imgbb">
+      <div>
         <a className="proj-imgbz" href="https://github.com/RamosGustavo?tab=repositories">View all my projects!</a>
       </div>
     </section>
