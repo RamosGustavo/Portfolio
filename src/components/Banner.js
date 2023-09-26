@@ -3,7 +3,7 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import RamosGustavoFullStack from "../assets/img/Gustavo-FullStack.pdf"
+import GustavoRamosFullStack from '../assets/img/GustavoRamosFullStack.pdf';
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -59,7 +59,7 @@ export const Banner = () => {
                   <h1 className="welcome">{`Hi! I'm Gustavo`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full Stack Developer", "React developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Hello! I am Gustavo and i am a FullStack developer with skills in a wide range of technologies, including JavaScript, HTML, CSS, frameworks like React and Node.js I love working on innovate projects and I am always looking for new ways to improve my skills and knowledge in the field of technology. If you are looking for a dedicated fullstack developer who is adaptable and determined to continually improve his skills, don't hesitate to contact me!</p>
                   <Button variant="contained" className="pdf">
-                    <a className="pdf1" href={RamosGustavoFullStack} download>
+                    <a className="pdf1" href={GustavoRamosFullStack} download>
                       CV
                     </a>
                   </Button>
