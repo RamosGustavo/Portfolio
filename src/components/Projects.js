@@ -56,6 +56,7 @@ export const Projects = () => {
       title: "mercado",
       description: "Design & Development",
       imgUrl: mercado,
+      href: "https://mercadosolidario.vercel.app",
     },
   ];
 
